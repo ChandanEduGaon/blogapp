@@ -627,6 +627,7 @@
                 .listen('.post.created', (event) => {
                     const title = event.post.title
                     const user = event.post.user
+                    fetchPosts();
                     showToast(`${user} Just Created a Post : ${title}`, "success")
                 });
         });

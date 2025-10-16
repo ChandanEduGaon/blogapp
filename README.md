@@ -26,9 +26,9 @@ A full-featured blog application with **authentication, admin dashboard, posts &
 
 4. npm install
 
-5. php artisan migrate
-
 ## Create a .env file and paste all variables from given txt file in email
+
+5. php artisan migrate
 
 6. php artisan key:generate
 
@@ -38,3 +38,4 @@ A full-featured blog application with **authentication, admin dashboard, posts &
 
 ```
 New we ready to check web app :
+Thank You :)
