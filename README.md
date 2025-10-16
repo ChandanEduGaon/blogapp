@@ -28,7 +28,7 @@ A full-featured blog application with **authentication, admin dashboard, posts &
 
 5. php artisan migrate
 
-## Create a .env file and paste all variables from given .env file in email
+## Create a .env file and paste all variables from given txt file in email
 
 6. php artisan key:generate
 
