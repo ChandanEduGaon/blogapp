@@ -18,11 +18,19 @@ A full-featured blog application with **authentication, admin dashboard, posts &
 ## Setup
 
 ```bash
-git clone <repo_url>
-cd BlogApp
-composer install
-npm install
-npm run dev
-cp .env.example .env
-php artisan key:generate
-php artisan migrate
+1. git clone https://github.com/ChandanEduGaon/blogapp.git
+
+2. cd BlogApp
+
+3. composer install
+
+4. npm install
+
+5. php artisan migrate
+
+6. php artisan test
+
+7. composer run dev
+
+```
+## New we ready to check web app :)

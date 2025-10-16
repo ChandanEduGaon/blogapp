@@ -29,12 +29,12 @@ class SocialAuthController extends Controller
                     'name' => $googleUser->getName(),
                     'email' => $googleUser->getEmail(),
                     'avatar' => $googleUser->getAvatar(),
-                    'google_id' => $googleUser->getId(),
+                    'social_id' => $googleUser->getId(),
                     'password' => bcrypt(str()->random(16)),
                 ]);
             } else {
                 $user->update([
-                    'google_id' => $googleUser->getId(),
+                    'social_id' => $googleUser->getId(),
                     'avatar' => $googleUser->getAvatar(),
                 ]);
             }
@@ -44,6 +44,7 @@ class SocialAuthController extends Controller
 
             return redirect()->route('home')->with('success', 'Logged in successfully via Google!');
         } catch (\Exception $e) {
+
             return redirect()->route('login')->with('error', 'Google authentication failed.');
         }
     }
@@ -64,12 +65,12 @@ class SocialAuthController extends Controller
                     'name' => $googleUser->getName(),
                     'email' => $googleUser->getEmail(),
                     'avatar' => $googleUser->getAvatar(),
-                    'google_id' => $googleUser->getId(),
+                    'social_id' => $googleUser->getId(),
                     'password' => bcrypt(str()->random(16)),
                 ]);
             } else {
                 $user->update([
-                    'google_id' => $googleUser->getId(),
+                    'social_id' => $googleUser->getId(),
                     'avatar' => $googleUser->getAvatar(),
                 ]);
             }
