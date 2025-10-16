@@ -28,9 +28,13 @@ A full-featured blog application with **authentication, admin dashboard, posts &
 
 5. php artisan migrate
 
-6. php artisan test
+## Create a .env file and paste all variables from given .env file in email
 
-7. composer run dev
+6. php artisan key:generate
+
+7. php artisan test ## Test some feature before navigateing to the web app.
+
+8. composer run dev
 
 ```
-## New we ready to check web app :)
+New we ready to check web app :
