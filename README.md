@@ -18,7 +18,7 @@ A full-featured blog application with **authentication, admin dashboard, posts &
 ## Setup
 
 ```bash
-1. git clone https://github.com/ChandanEduGaon/blogapp.git
+1. git clone ##GitHub Repo Link : https://github.com/ChandanEduGaon/blogapp.git
 
 2. cd BlogApp
 
